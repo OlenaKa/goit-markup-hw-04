@@ -208,6 +208,58 @@ footer .logostudio {
   line-height: 1.14;
 }
 
+.advantage-item:nth-child(1)::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  outline: #000000;
+  background-image: url("../images/antenna1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.advantage-item:nth-child(2)::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  outline: #000000;
+  background-image: url("../images/clock1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.advantage-item:nth-child(3)::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  outline: #000000;
+  background-image: url("../images/diagram1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.advantage-item:nth-child(4)::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  outline: #000000;
+  background-image: url("../images/astronaut1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
 .activities {
   display: flex;
   margin-top: 0;
