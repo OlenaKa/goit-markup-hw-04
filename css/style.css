@@ -213,6 +213,7 @@ footer .logostudio {
   content: "";
   width: 270px;
   height: 120px;
+  border-radius: 4px;
   background-color: #f5f4fa;
   outline: #000000;
   background-image: url("../images/antenna1.png");
@@ -226,6 +227,7 @@ footer .logostudio {
   content: "";
   width: 270px;
   height: 120px;
+  border-radius: 4px;
   background-color: #f5f4fa;
   outline: #000000;
   background-image: url("../images/clock1.png");
@@ -239,6 +241,7 @@ footer .logostudio {
   content: "";
   width: 270px;
   height: 120px;
+  border-radius: 4px;
   background-color: #f5f4fa;
   outline: #000000;
   background-image: url("../images/diagram1.png");
@@ -252,6 +255,7 @@ footer .logostudio {
   content: "";
   width: 270px;
   height: 120px;
+  border-radius: 4px;
   background-color: #f5f4fa;
   outline: #000000;
   background-image: url("../images/astronaut1.png");
