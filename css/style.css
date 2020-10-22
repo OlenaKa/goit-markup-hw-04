@@ -321,6 +321,71 @@ footer .logostudio {
   text-align: center;
 }
 
+.social-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 206px;
+  height: 44px;
+}
+
+.social-links .link {
+  width: calc((100% - 30px) / 4);
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.social-links .link:nth-child(4n) {
+  margin-right: 0;
+}
+
+.link-icon {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: white;
+}
+.icon {
+  display: block;
+  padding: 12px;
+  fill: #afb1b8;
+}
+.link-icon:hover {
+  background-color: var(--accent-color);
+}
+
+.icon:hover {
+  fill: white;
+}
+/* .social-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 206px;
+  height: 44px;
+}
+
+.social-links .link {
+  width: calc((100% - 30px) / 4);
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+}
+.social-links .link:nth-child(4n) {
+  margin-right: 0;
+}
+
+.icon:hover {
+  background-color: var(--accent-color);
+  fill: #fff;
+} */
+
 /* Portfolio */
 
 .portfolio-mainsection {
