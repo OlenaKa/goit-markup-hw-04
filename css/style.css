@@ -211,6 +211,7 @@ footer .logostudio {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .advantage-icon {
@@ -397,6 +398,8 @@ footer .logostudio {
   color: #ffffff;
   background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects {
