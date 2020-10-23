@@ -448,13 +448,16 @@ footer .logostudio {
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--bg-secondary-color);
   color: #ffffff;
   font-style: normal;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
 }
 
 .address-line:not(:last-child) {
@@ -478,4 +481,26 @@ footer {
 address {
   font-style: inherit;
   line-height: 24px;
+}
+.contact {
+  display: inline-block;
+}
+.joinus {
+  display: inline-block;
+  width: 206px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  margin-right: 0;
+  margin-left: 70px;
+}
+
+footer .link-icon {
+  background-color: rgba(255, 255, 255, 0.1);
+  --color2: #ffffff;
 }
